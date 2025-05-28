@@ -7,7 +7,7 @@ const Projects = () => {
       title: "Email-Validator",
       description: "Developed a user-friendly email validation tool to ensure proper email format and domain verification using JavaScript.",
       technologies: ["CSS", "HTML", "JavaScript"],
-      image: "/assets/images/email-validator.avif",
+      image: "public/assets/images/email-validator.avif",
       link: "https://github.com/satishpanduru/Email-validator",
       liveDemoLink: "https://ecommerce-demo.example.com"
     },
@@ -15,7 +15,7 @@ const Projects = () => {
       title: "Tic-Tac-Toe game",
       description: "Developed a tic-tac-toe game using react, to understand the cocepts of react clearly.",
       technologies: ["React", "JavaScript", "HTML", "CSS"],
-      image: "/assets/images/tic-tac-toe.jpg",
+      image: "public/assets/images/tic-tac-toe.jpg",
       link: "https://github.com/satishpanduru/Tic-Tac-Toe-React",
       liveDemoLink: "https://task-app-demo.example.com"
     },
@@ -23,7 +23,7 @@ const Projects = () => {
       title: "Weather App",
       description: "Real-time weather information app with location detection.",
       technologies: ["JavaScript", "Weather API", "HTML/CSS"],
-      image: "/assets/images/weather.webp",
+      image: "public/assets/images/weather.webp",
       link: "https://github.com/satishpanduru/Weather-app",
       liveDemoLink: "https://weather-demo.example.com"
     },
