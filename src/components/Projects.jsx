@@ -7,7 +7,7 @@ const Projects = () => {
       title: "Email-Validator",
       description: "Developed a user-friendly email validation tool to ensure proper email format and domain verification using JavaScript.",
       technologies: ["CSS", "HTML", "JavaScript"],
-      image: "public/assets/images/email-validator.avif",
+      image: `${import.meta.env.BASE_URL}assets/images/email-validator.avif`,
       link: "https://github.com/satishpanduru/Email-validator",
       liveDemoLink: "https://ecommerce-demo.example.com"
     },
