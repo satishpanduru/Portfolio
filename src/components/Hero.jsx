@@ -133,7 +133,7 @@ const Hero = () => {
             >
               {/* Profile Image */}
               <img 
-                src="public/assets/images/profile-image.jpg" 
+                src={`${import.meta.env.BASE_URL}assets/images/profile-image.jpg`}
                 alt="Satish Panduru" 
                 className="w-full h-full object-cover"
               />

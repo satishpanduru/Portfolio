@@ -15,7 +15,7 @@ const Projects = () => {
       title: "Tic-Tac-Toe game",
       description: "Developed a tic-tac-toe game using react, to understand the cocepts of react clearly.",
       technologies: ["React", "JavaScript", "HTML", "CSS"],
-      image: "/assets/images/tic-tac-toe.jpg",
+      image: `${import.meta.env.BASE_URL}assets/images/tic-tac-toe.jpg`,
       link: "https://github.com/satishpanduru/Tic-Tac-Toe-React",
       liveDemoLink: "https://task-app-demo.example.com"
     },
@@ -23,7 +23,7 @@ const Projects = () => {
       title: "Weather App",
       description: "Real-time weather information app with location detection.",
       technologies: ["JavaScript", "Weather API", "HTML/CSS"],
-      image: "public/assets/images/weather.webp",
+      image: `${import.meta.env.BASE_URL}assets/images/weather.webp`,
       link: "https://github.com/satishpanduru/Weather-app",
       liveDemoLink: "https://weather-demo.example.com"
     },
