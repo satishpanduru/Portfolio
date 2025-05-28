@@ -15,7 +15,7 @@ const Projects = () => {
       title: "Tic-Tac-Toe game",
       description: "Developed a tic-tac-toe game using react, to understand the cocepts of react clearly.",
       technologies: ["React", "JavaScript", "HTML", "CSS"],
-      image: "public/assets/images/tic-tac-toe.jpg",
+      image: "/assets/images/tic-tac-toe.jpg",
       link: "https://github.com/satishpanduru/Tic-Tac-Toe-React",
       liveDemoLink: "https://task-app-demo.example.com"
     },
